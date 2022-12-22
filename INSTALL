@@ -1,0 +1,3 @@
+gcc -Wall -o gooscan gooscan.c
+chmod 775 gooscan
+ln -vs /pentest/02/gooscan/gooscan /usr/bin/gooscan
